@@ -1,11 +1,11 @@
 html {
-    /* background-color: black; */
+    background-color: lightsalmon;
 }
 
-#main-container {
+/* #main-container {
     position: relative;
     width: 100%;
-}
+} */
 
 #header {
     width: 100%;
@@ -17,8 +17,14 @@ html {
     position: fixed;
     z-index: 1;
     width: 25%;
-    height: 23.5%;
+    height: 20.75%;
    
+}
+
+#nav {
+    display: block;
+    color: white;
+    float: right;
 }
 
 #nav-bar {
@@ -27,13 +33,10 @@ html {
     width: 100%;
 }
 
-#nav-bar a {
-    float: right;
-}
 .nav-link {
     display: block;
-    position: fixed;
     color: white;
+    float: right;
 }
 
 #video {
@@ -42,11 +45,8 @@ html {
 }
 
 h2 {
-    display: block;
-    margin: auto;
+    text-align: center;
 }
 
-form {
-    display: block;
-    margin: auto;
-}
+
+
