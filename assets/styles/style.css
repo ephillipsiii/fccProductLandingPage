@@ -2,6 +2,51 @@ html {
     /* background-color: black; */
 }
 
+#main-container {
+    position: relative;
+    width: 100%;
+}
+
+#header {
+    width: 100%;
+    height: 100;
+}
+
 #header-img {
-    opacity: -1.0;
+    float: left;
+    position: fixed;
+    z-index: 1;
+    width: 25%;
+    height: 23.5%;
+   
+}
+
+#nav-bar {
+    position: fixed;
+    background-color: darkred;
+    width: 100%;
+}
+
+#nav-bar a {
+    float: right;
+}
+.nav-link {
+    display: block;
+    position: fixed;
+    color: white;
+}
+
+#video {
+    display: block;
+    margin: auto;
+}
+
+h2 {
+    display: block;
+    margin: auto;
+}
+
+form {
+    display: block;
+    margin: auto;
 }
