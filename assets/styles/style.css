@@ -25,6 +25,8 @@ html {
     display: block;
     color: white;
     float: right;
+    list-style-type: none;
+    margin-right: 5%;
 }
 
 #nav-bar {
@@ -33,11 +35,21 @@ html {
     width: 100%;
 }
 
-.nav-link {
+.nav-link a:link ,
+.nav-link a:visited {
     display: block;
     color: white;
     float: right;
+    padding: 2% 2% 2% 2%;
+    
 }
+
+nav li{
+    display: inline;
+    padding: 0;
+    margin: 0%;
+}
+
 
 #video {
     display: block;
@@ -48,5 +60,9 @@ h2 {
     text-align: center;
 }
 
+#gameplay {
+    display: flex;
+    flex-direction: column;
+}
 
 
